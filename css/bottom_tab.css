@@ -1,0 +1,53 @@
+.mui-bar-tab .mui-tab-item.mui-active{
+	color: #ff302d;
+}
+
+.mui-icon-duobao{
+	background: url(../images/tab/tab_home_default.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-duobao.active{
+	background: url(../images/tab/tab_home_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-kaijiang{
+	background: url(../images/tab/tab_announced_default.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-kaijiang.active{
+	background: url(../images/tab/tab_announced_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-faxian{
+	background: url(../images/tab/tab_discover_default.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-faxian.active{
+	background: url(../images/tab/tab_discover_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-qingdan{
+	background: url(../images/tab/tab_buy_default.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-qingdan.active{
+	background: url(../images/tab/tab_buy_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-wode{
+	background: url(../images/tab/tab_user_default.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.mui-icon-wode.active{
+	background: url(../images/tab/tab_user_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
