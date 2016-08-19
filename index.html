@@ -3,73 +3,109 @@
 
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>夺宝</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>一元购</title>
 
-		<link href="css/mui.min.css" rel="stylesheet" />
-		<link href="css/index.css" rel="stylesheet" />
-		<link href="css/bottom_tab.css" rel="stylesheet" />
-	
+		<link href="./css/mui.min.css" rel="stylesheet" />
+		<link href="./css/duobao.css" rel="stylesheet" />
+		<link href="./css/bottom-tab.css" rel="stylesheet" />
+
 	</head>
 
 	<body>
+
 		<header id="header" class="mui-bar mui-bar-nav">
 			<a class="mui-pull-left mui-icon mui-icon-nav-category"></a>
 			<h1 class="mui-title">一元购</h1>
 			<a class="mui-pull-right mui-icon mui-icon-nav-search"></a>
 		</header>
 
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="index.html">
+				<span class="mui-icon mui-icon-duobao active"></span>
+				<span class="mui-tab-label">夺宝</span>
+			</a>
+			<a class="mui-tab-item" href="./pages/kaijiang.html">
+				<span class="mui-icon mui-icon-kaijiang"><span class="mui-badge">9</span></span>
+				<span class="mui-tab-label">开奖</span>
+			</a>
+			<a class="mui-tab-item" href="./pages/faxian.html">
+				<span class="mui-icon mui-icon-faxian"></span>
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="./pages/qingdan.html">
+				<span class="mui-icon mui-icon-qingdan"></span>
+				<span class="mui-tab-label">清单</span>
+			</a>
+			<a class="mui-tab-item" href="./pages/wode.html">
+				<span class="mui-icon mui-icon-wode"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+
 		<div class="mui-content">
-			<!-- 顶部活动 -->
 			<div class="top-activity-tips">
-				<span class="activity-title">免费抢话费</span>
-				<span class="activity-label">即将开始</span>
-				<span class="activity-time">0</span>
-				<span class="activity-time">0</span>
-				<span class="activity-time-split">:</span>
-				<span class="activity-time">0</span>
-				<span class="activity-time">0</span>
-				<span class="activity-time-split">:</span>
-				<span class="activity-time">0</span>
-				<span class="activity-time">0</span>
+				<div class="mui-table-view mui-grid-view">
+					<div class="mui-table-view-cell mui-col-sm-6 mui-col-xs-12">
+						<div class="activity-title-box">
+							<span class="activity-title">免费抢话费</span>
+						</div>
+					</div>
+					<div class="mui-table-view-cell mui-col-sm-6 mui-col-xs-12">
+						<div class="activity-time-box">
+							<span class="activity-label">即将开始</span>
+							<span class="activity-time">0</span>
+							<span class="activity-time">0</span>
+							<span class="activity-time-split">:</span>
+							<span class="activity-time">0</span>
+							<span class="activity-time">0</span>
+							<span class="activity-time-split">:</span>
+							<span class="activity-time">0</span>
+							<span class="activity-time">0</span>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<!-- 轮播图 -->
 			<div id="slider" class="mui-slider">
 				<div class="mui-slider-group mui-slider-loop">
 					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
 					<div class="mui-slider-item mui-slider-item-duplicate">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 					<!-- 第一张 -->
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 					<!-- 第二张 -->
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 					<!-- 第三张 -->
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 					<!-- 第四张 -->
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
 					<div class="mui-slider-item mui-slider-item-duplicate">
 						<a href="#">
-							<img src="images/duobao/camera_prompts_img.png">
+							<img src="./images/duobao/camera_prompts_img.png">
 						</a>
 					</div>
 				</div>
@@ -82,77 +118,210 @@
 			</div>
 
 			<div class="fast-nav">
-				<a class="fast-item" href="#">
-					<span class="fast-item-icon"></span>
-					<span class="fast-item-label">本地商品</span>
-				</a>
-				<a class="fast-item" href="#">
-					<span class="fast-item-icon"></span>
-					<span class="fast-item-label">不中包赔</span>
-				</a>
-				<a class="fast-item" href="#">
-					<span class="fast-item-icon"></span>
-					<span class="fast-item-label">晒单</span>
-				</a>
-				<a class="fast-item" href="#">
-					<span class="fast-item-icon"></span>
-					<span class="fast-item-label">签到</span>
-				</a>
+				<ul class="mui-table-view mui-grid-view">
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-3">
+						<a href="#">
+							<span class="fast-item-icon"></span>
+							<div class="mui-media-body">本地商品</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-3">
+						<a href="#">
+
+							<span class="fast-item-icon"></span>
+							<div class="mui-media-body">不中包赔</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-3">
+						<a href="#">
+							<span class="fast-item-icon"></span>
+							<div class="mui-media-body">晒单</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-3">
+						<a href="#">
+							<span class="fast-item-icon"></span>
+							<div class="mui-media-body">晒单</div>
+						</a>
+					</li>
+				</ul>
 
 			</div>
-			
+
 			<div class="item-nav">
-				<span class="title">最新揭晓</span>
-				<span class="look-more">显示全部 ></span>
+				<div class="mui-row">
+					<div class="mui-table-view-cell mui-col-sm-6 mui-col-xs-12">
+						<span class="title">最新揭晓</span>
+					</div>
+					<div class="mui-table-view-cell mui-col-sm-6 mui-col-xs-12">
+						<a href="#" class="mui-navigate-right look-more" style="color: #ff302d;">
+							显示全部&nbsp;&nbsp;&nbsp;&nbsp;
+						</a>
+					</div>
+				</div>
 			</div>
-		
+
 			<div class="latest-result">
-				<a class="result-item">
-					<img class="cover" src="images/duobao/camera_prompts_img.png" width="95px" height="75px"/>
-					<span class="title">30远淘宝购物卡（购物卡）</span>
-					<span class="desc">21:38:40</span>
-				</a>
-				<a class="result-item">
-					<img class="cover" src="images/duobao/camera_prompts_img.png" width="95px" height="75px"/>
-					<span class="title">30远淘宝购物卡（购物卡）</span>
-					<span class="desc">21:38:40</span>
-				</a>
-				<a class="result-item">
-					<img class="cover" src="images/duobao/camera_prompts_img.png" width="95px" height="75px"/>
-					<span class="title">30远淘宝购物卡（购物卡）</span>
-					<span class="desc">21:38:40</span>
-				</a>
+				<ul class="mui-table-view mui-grid-view">
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-4">
+						<a href="#">
+							<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+							<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+							<span class="mui-media-desc">21:38:40</span>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-4">
+						<a href="#">
+							<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+							<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+							<span class="mui-media-desc">21:38:40</span>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-4">
+						<a href="#">
+							<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+							<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+							<span class="mui-media-desc">21:38:40</span>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-4">
+						<a href="#">
+							<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+							<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+							<span class="mui-media-desc">21:38:40</span>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-4">
+						<a href="#">
+							<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+							<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+							<span class="mui-media-desc">21:38:40</span>
+						</a>
+					</li>
+				</ul>
+
+				<div style="padding: 10px 10px;">
+					<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-negative">
+						<a class="mui-control-item mui-active" href="#item1">
+							最热
+						</a>
+						<a class="mui-control-item" href="#item2">
+							最新
+						</a>
+						<a class="mui-control-item" href="#item3">
+							最快
+						</a>
+						<a class="mui-control-item" href="#item4">
+							最贵
+						</a>
+						<a class="mui-control-item" href="#item5">
+							最易中
+						</a>
+					</div>
+				</div>
+				<div>
+					<div id="item1" class="mui-control-content mui-active">
+						<ul class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-12 mui-col-sm-6">
+								<a href="#">
+									<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+									<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+									<div class="mui-media-panel">
+										<span class="progress">
+											<span class="progress-desc">夺宝进度<span class="count">66%</span></span>
+											<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>
+										</span>
+										<span class="add-to-buy-car">
+											加入清单
+										</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-12 mui-col-sm-6">
+								<a href="#">
+									<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+									<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+									<div class="mui-media-panel">
+										<span class="progress">
+											<span class="progress-desc">夺宝进度<span class="count">66%</span></span>
+											<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>
+										</span>
+										<span class="add-to-buy-car">
+											加入清单
+										</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-12 mui-col-sm-6">
+								<a href="#">
+									<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+									<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+									<div class="mui-media-panel">
+										<span class="progress">
+											<span class="progress-desc">夺宝进度<span class="count">66%</span></span>
+											<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>
+										</span>
+										<span class="add-to-buy-car">
+											加入清单
+										</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-12 mui-col-sm-6">
+								<a href="#">
+									<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+									<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+									<div class="mui-media-panel">
+										<span class="progress">
+											<span class="progress-desc">夺宝进度<span class="count">66%</span></span>
+											<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>
+										</span>
+										<span class="add-to-buy-car">
+											加入清单
+										</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-12 mui-col-sm-6">
+								<a href="#">
+									<img class="mui-media-object" src="./images/duobao/camera_prompts_img.png" />
+									<span class="mui-media-body">30远淘宝购物卡（购物卡）</span>
+									<div class="mui-media-panel">
+										<span class="progress">
+											<span class="progress-desc">夺宝进度<span class="count">66%</span></span>
+											<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>
+										</span>
+										<span class="add-to-buy-car">
+											加入清单
+										</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+
 			</div>
-			
-			
+
 		</div>
 
-		<nav class="mui-bar mui-bar-tab">
-			<a class="mui-tab-item mui-active" href="#">
-				<span class="mui-icon mui-icon-duobao active"></span>
-				<span class="mui-tab-label">夺宝</span>
-			</a>
-			<a class="mui-tab-item" href="./pages/kaijiang.html">
-				<span class="mui-icon mui-icon-kaijiang"><span class="mui-badge">9</span></span>
-				<span class="mui-tab-label">开奖</span>
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-contact">
-				<span class="mui-icon mui-icon-faxian"></span>
-				<span class="mui-tab-label">发现</span>
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-map">
-				<span class="mui-icon mui-icon-qingdan"></span>
-				<span class="mui-tab-label">清单</span>
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-map">
-				<span class="mui-icon mui-icon-wode"></span>
-				<span class="mui-tab-label">我的</span>
-			</a>
-		</nav>
-
 	</body>
-	<script src="js/jquery-3.1.0.min.js"></script>
-	<script src="js/mui.min.js"></script>
-	<script src="js/index.js"></script>
+	<script src="./js/jquery-3.1.0.min.js"></script>
+	<script src="./js/mui.min.js"></script>
+	<script src="./js/duobao.js"></script>
+	<script src="./js/bottom-tab.js"></script>
+	<script src="./js/index.js"></script>
+
+	<style>
+		.mui-control-content {
+			background-color: white;
+			min-height: 800px;
+		}
+		
+		.mui-control-content .mui-loading {
+			margin-top: 50px;
+		}
+	</style>
 
 </html>

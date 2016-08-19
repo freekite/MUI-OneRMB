@@ -808,27 +808,27 @@ var mui = (function(document, undefined) {
 			}
 		}
 	});
-	window.addEventListener('click', function(event) { //解决touch与click的target不一致的问题(比如链接边缘点击时，touch的target为html，而click的target为A)
-		var target = event.target;
-		var isFound = false;
-		for (; target && target !== document; target = target.parentNode) {
-			if (target.tagName === 'A') {
-				$.each($.targetHandles, function(index, targetHandle) {
-					var name = targetHandle.name;
-					if (targetHandle.hasOwnProperty('handle')) {
-						if (targetHandle.handle(event, target)) {
-							isFound = true;
-							event.preventDefault();
-							return false;
-						}
-					}
-				});
-				if (isFound) {
-					break;
-				}
-			}
-		}
-	});
+//	window.addEventListener('click', function(event) { //解决touch与click的target不一致的问题(比如链接边缘点击时，touch的target为html，而click的target为A)
+//		var target = event.target;
+//		var isFound = false;
+//		for (; target && target !== document; target = target.parentNode) {
+//			if (target.tagName === 'A') {
+//				$.each($.targetHandles, function(index, targetHandle) {
+//					var name = targetHandle.name;
+//					if (targetHandle.hasOwnProperty('handle')) {
+//						if (targetHandle.handle(event, target)) {
+//							isFound = true;
+//							event.preventDefault();
+//							return false;
+//						}
+//					}
+//				});
+//				if (isFound) {
+//					break;
+//				}
+//			}
+//		}
+//	});
 })(mui, window, document);
 /**
  * fixed trim
@@ -6142,12 +6142,12 @@ Function.prototype.bind = Function.prototype.bind || function(to) {
 	var CLASS_SEGMENTED_CONTROL = 'mui-segmented-control';
 	var CLASS_SEGMENTED_CONTROL_VERTICAL = 'mui-segmented-control-vertical';
 	var CLASS_CONTROL_CONTENT = 'mui-control-content';
-	var CLASS_TAB_BAR = 'mui-bar-tab';
-	var CLASS_TAB_ITEM = 'mui-tab-item';
+//	var CLASS_TAB_BAR = 'mui-bar-tab';
+//	var CLASS_TAB_ITEM = 'mui-tab-item';
 	var CLASS_SLIDER_ITEM = 'mui-slider-item';
 
 	var handle = function(event, target) {
-		if (target.classList && (target.classList.contains(CLASS_CONTROL_ITEM) || target.classList.contains(CLASS_TAB_ITEM))) {
+		if (target.classList && (target.classList.contains(CLASS_CONTROL_ITEM) )) {//|| target.classList.contains(CLASS_TAB_ITEM)
 			if (target.parentNode && target.parentNode.classList && target.parentNode.classList.contains(CLASS_SEGMENTED_CONTROL_VERTICAL)) {
 				//vertical 如果preventDefault会导致无法滚动
 			} else {
@@ -6184,9 +6184,10 @@ Function.prototype.bind = Function.prototype.bind || function(to) {
 			if (segmentedControl.classList.contains(CLASS_SEGMENTED_CONTROL)) {
 				activeTab = segmentedControl.querySelector(classSelector + '.' + CLASS_CONTROL_ITEM);
 				break;
-			} else if (segmentedControl.classList.contains(CLASS_TAB_BAR)) {
-				activeTab = segmentedControl.querySelector(classSelector + '.' + CLASS_TAB_ITEM);
-			}
+			} 
+//			else if (segmentedControl.classList.contains(CLASS_TAB_BAR)) {
+//				activeTab = segmentedControl.querySelector(classSelector + '.' + CLASS_TAB_ITEM);
+//			}
 		}
 
 		if (activeTab) {

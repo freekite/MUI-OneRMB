@@ -1,0 +1,186 @@
+.mui-bar.mui-bar-nav {
+	background-color: #ff302d;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+.mui-icon-nav-category {
+	width: 44px;
+	height: 44px;
+	background: url(../images/duobao/ic_category.png) no-repeat center;
+	background-size: 20px 20px;
+}
+
+.mui-icon-nav-search {
+	width: 44px;
+	height: 44px;
+	background: url(../images/duobao/ic_big_search.png) no-repeat center;
+	background-size: 20px 20px;
+}
+
+.top-activity-tips {
+	background-color: #F3F3F3;
+}
+
+.activity-title-box {
+	text-align: left;
+}
+
+.activity-title {
+	height: 45px;
+	color: #000000;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.activity-label {
+	height: 45px;
+	color: #ffffff;
+	line-height: 45px;
+	padding: 5px;
+	font-size: 16px;
+	background-color: #da041b;
+	border-radius: 5px;
+}
+
+.activity-time-box {
+	text-align: right;
+}
+
+.activity-time {
+	display:inline;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	color: #ff302d;
+	padding: 2px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.activity-time-split {
+	color: #ff302d;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.fast-nav {
+	min-height: 80px;
+	background-color: #FFFFFF;
+}
+
+.fast-item-icon {
+	margin-top: 18px;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	background: url(../images/tab/tab_home_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.item-nav {
+	background-color: #F3F3F3;
+	min-height: 30px;
+	border-top: 1px solid #dfdfdf;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.item-nav .title {
+	background: url(../images/duobao/ic_buy_ongoing.png) no-repeat;
+	background-size: 16px 16px;
+	padding-left: 25px;
+}
+
+.item-nav .look-more {
+	text-align: right;
+	color: #ff302d;
+}
+
+.item-nav .look-more:after {
+	color: #ff302d;
+}
+
+.latest-result {
+	border-top: 1px solid #dfdfdf;
+	background-color: #FFFFFF;
+	min-height: 170px;
+}
+
+.result-item {
+	display: table-cell;
+	width: 1%;
+	text-align: center;
+}
+
+.result-item .cover {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.result-item .title {
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.mui-media-desc {
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #da041b;
+	border-radius: 14px;
+	line-height: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.result-item:nth-child(2) {
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+
+.mui-media-panel{
+	padding: 10px 5px;
+}
+.mui-media-panel .progress{
+	text-align: left;
+	display: inline-block;
+	width: 60%;
+}
+.mui-progressbar-golden span{
+	background-color: #f98600;
+}
+.mui-media-panel .progress .progress-desc{
+	font-size: 12px;
+	line-height: 12px;
+    height: 12px;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.mui-media-panel .progress .progress-desc .count{
+	color: #f98600;
+	padding-left: 5px;
+}
+.mui-media-panel .add-to-buy-car{
+	font-size: 12px;
+	line-height: 12px;
+    color: #ff302d;
+	display: inline-block;
+	width: 34%;
+	margin-left: 6%;
+	border: 1px solid #ff302d;
+	padding: 5px;
+	border-radius: 5px;
+}
+.mui-media-panel .mui-progressbar{
+	margin-top: 10px;
+	line-height: 20px;
+}
