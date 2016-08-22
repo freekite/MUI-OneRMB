@@ -1,0 +1,57 @@
+.mui-media-object{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.mui-media-body{
+	text-align: left;
+}
+
+.mui-media-desc {
+	text-align: left;
+	background-color: #2AC845;
+	line-height: 14px;
+	font-size: 14px;
+}
+.mui-media-desc span{
+	display: block;
+	padding-top: 2px;
+}
+.mui-media-desc .number{
+	margin-top: 8px;
+}
+.mui-media-desc .number,
+.mui-media-desc .user-luky,
+.mui-media-desc .user-id,
+.mui-media-desc .user-number,
+.mui-media-desc .number-count{
+	color: #8F8F94;
+	font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mui-media-desc mark{
+	color: #8F8F94;
+	background-color: #FFFFFF;
+}
+
+.mui-media-desc .blue{
+	color: #007AFF;
+}
+.mui-media-desc .red{
+	color: #ff302d;
+}
+.mui-media-desc .tips{
+	background: url(../images/kaijiang/ic_countdown.png) no-repeat left;
+	background-size: 16px 16px;
+	margin-top: 12px;
+	padding-left: 20px;
+	color: #ff302d;
+	font-size: 14px;
+}
+.mui-media-desc .time-count{
+	color: #ff302d;
+	padding-top: 12px;
+	font-size: 28px;
+	padding-bottom: 10px;
+}

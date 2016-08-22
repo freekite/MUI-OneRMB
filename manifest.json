@@ -214,7 +214,8 @@
 					"js/bottom-tab.js",
 					"js/duobao.js",
 					"css/duobao.css",
-					"css/bottom-tab.css"
+					"css/bottom-tab.css",
+					"pages/duobao_refresh.html"
 				],
 				"refer": [
 					"pages/kaijiang.html",
@@ -237,7 +238,9 @@
 					"images/duobao/ic_big_search.png",
 					"css/bottom-tab.css",
 					"images/duobao/ic_category.png",
-					"images/tab/tab_discover_default.png"
+					"images/tab/tab_discover_default.png",
+					"pages/kaijiang_refresh.html",
+					"js/kaijiang.js"
 				],
 				"refer": [],
 				"priority": 0
@@ -270,6 +273,26 @@
 					"css/bottom-tab.css",
 					"images/duobao/ic_category.png",
 					"images/tab/tab_announced_default.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/kaijiang_refresh.html": {
+				"resources": [
+					"js/kaijiang_refresh.js",
+					"images/kaijiang/ic_countdown.png",
+					"css/kaijiang-refresh.css",
+					"images/duobao/camera_prompts_img.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/duobao_refresh.html": {
+				"resources": [
+					"js/duobao_refresh.js",
+					"images/duobao/ic_buy_ongoing.png",
+					"images/duobao/camera_prompts_img.png",
+					"css/duobao-refresh.css"
 				],
 				"refer": [],
 				"priority": 0

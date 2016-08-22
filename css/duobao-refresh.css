@@ -1,0 +1,180 @@
+
+.top-activity-tips .mui-table-view{
+	background-color: #F3F3F3;
+}
+
+.activity-title-box {
+	text-align: left;
+}
+
+.activity-title {
+	height: 25px;
+	color: #000000;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.activity-label {
+	height: 25px;
+	color: #ffffff;
+	line-height: 25px;
+	padding: 5px 8px;
+	font-size: 14px;
+	background-color: #da041b;
+	border-radius: 5px;
+}
+
+.activity-time-box {
+	text-align: right;
+	font-size: 14px;
+}
+
+.activity-time {
+	display:inline;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	color: #ff302d;
+	padding: 2px 1px;
+	font-weight: bold;
+}
+
+.activity-time-split {
+	color: #ff302d;
+	font-weight: bold;
+}
+
+.fast-nav {
+	min-height: 80px;
+	background-color: #FFFFFF;
+}
+
+.fast-item-icon {
+	margin-top: 15px;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	background: url(../images/tab/tab_home_pressed.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+.item-nav .mui-table-view{
+	background-color: #F3F3F3;
+	height: 35px;
+	font-weight: bold;
+}
+
+.item-nav .title {
+	display: block;
+	text-align: left;
+	background: url(../images/duobao/ic_buy_ongoing.png) no-repeat;
+	background-size: 14px 14px;
+	padding-left: 25px;
+	line-height: 14px;
+	font-size: 14px;
+}
+
+.item-nav .look-more {
+	display: block;
+	text-align: right;
+	color: #ff302d;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.item-nav .look-more:after {
+	color: #ff302d;
+}
+
+.latest-result {
+	background-color: #FFFFFF;
+	max-height: 170px;
+}
+
+.result-item {
+	display: table-cell;
+	width: 1%;
+	text-align: center;
+}
+
+.result-item .cover {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.result-item .title {
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.mui-media-desc {
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #da041b;
+	border-radius: 14px;
+	line-height: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+#segmentedControl{
+	padding-top: 10px;
+	background-color: #FFFFFF;
+}
+
+.mui-media-panel{
+}
+.mui-media-panel .progress{
+	text-align: left;
+	display: inline-block;
+	width: 55%;
+	height: 20px;
+	margin-top: 10px;
+}
+.mui-progressbar-golden span{
+	background-color: #f98600;
+    left: 55%;
+}
+.mui-media-panel .progress .progress-desc{
+	display: block;
+	font-size: 10px;
+	line-height: 10px;
+    height: 10px;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.mui-media-panel .progress .progress-desc .count{
+	color: #f98600;
+}
+
+..mui-media-panel .progress .mui-progressbar{
+	display: block;
+	background-color: #007AFF;
+}
+
+.mui-media-panel .add-to-buy-car{
+	font-size: 10px;
+	line-height: 10px;
+    color: #ff302d;
+	display: inline-block;
+	width: 44%;
+	margin-left: 1%;
+	border: 1px solid #ff302d;
+	padding: 5px 0px;
+	border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mui-media-panel .mui-progressbar{
+	margin-top: 10px;
+	line-height: 20px;
+}
