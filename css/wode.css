@@ -1,0 +1,50 @@
+.mui-bar.mui-bar-nav {
+	background-color: #ff302d;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+.mui-table-view .mui-media-object {
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.mine-suger{
+	background: url(../images/wode/ic_wing.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-buy-history{
+	background: url(../images/wode/buy_history.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-luky-history{
+	background: url(../images/wode/win_history.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-recharge-record{
+	background: url(../images/wode/recharge_record.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-red-bag{
+	background: url(../images/wode/my_redpackets.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-messages{
+	background: url(../images/wode/ic_message.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-level{
+	background: url(../images/wode/ic_level.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-show-share{
+	background: url(../images/wode/camera_history.png) no-repeat center;
+	background-size: 24px 24px;
+}
+.mine-address{
+	background: url(../images/wode/icon_address.png) no-repeat center;
+	background-size: 24px 24px;
+}

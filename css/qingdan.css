@@ -1,0 +1,33 @@
+.mui-bar.mui-bar-nav {
+	background-color: #ff302d;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+.list-empty{
+	text-align: center;
+}
+.list-empty-object{
+	margin-top: 30px;
+}
+.list-empty-body{
+	display: block;
+	font-size: 10px;
+	line-height: 10px;
+    height: 10px;
+    margin-top: 10px;
+    color: #8F8F94;
+}
+.list-empty-to-buy{
+	font-size: 14px;
+	line-height: 20px;
+    color: #ff302d;
+    margin-top: 10px;
+	display: inline-block;
+	width: 150px;
+	border: 1px solid #ff302d;
+	padding: 5px 0px;
+	border-radius: 5px;
+}
