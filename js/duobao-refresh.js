@@ -16,13 +16,13 @@ slider.slider({
 //	});
 //});
 
-mui(".mui-progressbar").each(function() {
-	mui(this).progressbar({
-		progress: this.getAttribute("data-progress")
-	}).show();
-});
-
-
+function refreshProgress() {
+	mui(".mui-progressbar").each(function() {
+		mui(this).progressbar({
+			progress: this.getAttribute("data-progress")
+		}).show();
+	});
+}
 
 var item_latest = '<a href="#">' +
 	'<img class="mui-media-object" src="../images/duobao/camera_prompts_img.png" />' +
@@ -35,7 +35,7 @@ var item_content = '<a href="#">' +
 	'<div class="mui-media-panel">' +
 	'<span class="progress">' +
 	'<span class="progress-desc">夺宝进度<span class="count">66%</span></span>' +
-	'<p class="mui-progressbar mui-progressbar-golden" data-progress="50"><span></span></p>' +
+	'<p class="mui-progressbar mui-progressbar-golden" data-progress="80"><span></span></p>' +
 	'</span>' +
 	'<span class="add-to-buy-car">加入清单</span>' +
 	'</div></a>';
@@ -52,7 +52,7 @@ mui.init({
 		}
 	}
 });
-mui.ready(function(){
+mui.ready(function() {
 	loadLatestResult();
 });
 
@@ -66,6 +66,7 @@ function loadLatestResult() {
 			li.innerHTML = item_latest;
 			table.insertBefore(li, table.firstChild);
 		}
+		refreshProgress();
 	}, 1500);
 }
 

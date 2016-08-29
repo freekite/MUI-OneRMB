@@ -59,7 +59,7 @@ function pullupRefresh() {
 		for(var i = cells.length, len = i + 20; i < len; i++) {
 			var li = document.createElement('li');
 			li.className = 'mui-table-view-cell mui-media mui-col-xs-6 mui-col-sm-6';
-			li.innerHTML = i % 3 == 0 ? item_count : item_finish;
+			li.innerHTML = i % 2 == 0 ? item_count : item_finish;
 			table.appendChild(li);
 		}
 	}, 1500);

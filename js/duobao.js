@@ -9,7 +9,7 @@ mui.init({
 		url: 'pages/duobao_refresh.html',
 		id: 'duobao_refresh.html',
 		styles: {
-			top: '45px',
+			top: '0px',
 			bottom: '0px',
 		}
 	}]

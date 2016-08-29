@@ -1,0 +1,138 @@
+.goods-info {
+	padding: 10px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+}
+
+.goods-info .title span {
+	background-color: #8056a7;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 3px 5px;
+}
+
+.goods-info .title {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.goods-info .mui-progressbar {
+	margin-top: 10px;
+}
+
+.goods-info .mui-progressbar-golden span {
+	background-color: #f98600;
+}
+
+.goods-info .desc {
+	margin-top: -8px;
+	color: #8F8F94;
+}
+
+.goods-info .desc .count {
+	color: #f98600;
+}
+
+.goods-info .desc .total {
+	float: left;
+}
+
+.goods-info .desc .total {
+	float: right;
+}
+
+.lucky-user-info {
+	background-color: #fdf2dc;
+}
+
+.lucky-user-info .avatar {
+	float: left;
+}
+
+.lucky-user-info .avatar img {
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.lucky-user-info .info {
+	font-size: 14px;
+	padding: 10px 0;
+	line-height: 16px;
+}
+
+.account {
+	color: #1e8cfe;
+}
+
+.exra {
+	color: #8F8F94;
+}
+.exra,.small{
+	color: #8F8F94;
+	font-size: 12px;
+}
+
+.count {
+	color: #fd312d;
+}
+
+.lucky-user-info .ico-tip {
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	background: url(../images/goods-info/winner_corner_icon.png) no-repeat center;
+	background-size: 40px 40px;
+}
+
+.lucky-number {
+	background-color: #fd312b;
+	line-height: 40px;
+	color: #FFFFFF;
+	padding: 0 10px;
+}
+
+.lucky-number .text {}
+
+.lucky-number .more {
+	float: right;
+}
+
+.lucky-number a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.other-item {
+	font-size: 14px;
+}
+
+.join-member .header {
+	background-color: #FFFFFF;
+	line-height: 45px;
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+.join-member .header span {
+	margin-left: 10px;
+}
+
+.join-member .mui-table-view {
+	font-size: 14px;
+}
+.join-member .mui-left{
+	float: left;
+}
+
+.join-member .mui-left {
+}
+
+.join-member .mui-left img {
+	border-radius: 36px;
+}

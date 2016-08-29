@@ -12,39 +12,72 @@
 	height: 24px;
 }
 
-.mine-suger{
+.mine-suger {
 	background: url(../images/wode/ic_wing.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-buy-history{
+
+.mine-buy-history {
 	background: url(../images/wode/buy_history.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-luky-history{
+
+.mine-luky-history {
 	background: url(../images/wode/win_history.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-recharge-record{
+
+.mine-recharge-record {
 	background: url(../images/wode/recharge_record.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-red-bag{
+
+.mine-red-bag {
 	background: url(../images/wode/my_redpackets.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-messages{
+
+.mine-messages {
 	background: url(../images/wode/ic_message.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-level{
+
+.mine-level {
 	background: url(../images/wode/ic_level.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-show-share{
+
+.mine-show-share {
 	background: url(../images/wode/camera_history.png) no-repeat center;
 	background-size: 24px 24px;
 }
-.mine-address{
+
+.mine-address {
 	background: url(../images/wode/icon_address.png) no-repeat center;
 	background-size: 24px 24px;
+}
+
+
+.user-info {
+	height: 85px;
+	padding: 0 20px;
+}
+
+.user-info  a{
+	color: #000000;
+}
+.user-info div{ 
+	float: left;
+	width: 50%;
+	line-height: 85px;
+	text-align: center;
+}
+.user-info  div .avatar{
+	display: block;
+	margin: 20px;
+	width: 45px;
+	height: 45px;
+}
+.user-info .sign-up{
+	margin-left: -20px;
 }

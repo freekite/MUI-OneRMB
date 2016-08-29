@@ -7,7 +7,7 @@ mui.init({
 		url: 'kaijiang_refresh.html',
 		id: 'kaijiang_refresh.html',
 		styles: {
-			top: '35px',
+			top: '0px',
 			bottom: '0px',
 		}
 	}]
