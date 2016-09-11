@@ -1,0 +1,105 @@
+.mui-bar.mui-bar-nav {
+	background-color: #ff302d;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+header a{
+	color: #FFFFFF;
+}
+
+
+
+.list-empty{
+	text-align: center;
+}
+.list-empty-object{
+	margin-top: 80px;
+}
+.list-empty-body{
+	display: block;
+	font-size: 12px;
+	line-height: 10px;
+    height: 10px;
+    margin-top: 10px;
+    color: #8F8F94;
+}
+.list-empty-to-buy{
+	font-size: 14px;
+	line-height: 20px;
+    color: #ff302d;
+    margin-top: 10px;
+	display: inline-block;
+	width: 150px;
+	border: 1px solid #ff302d;
+	padding: 5px 0px;
+	border-radius: 3px;
+}
+
+
+
+.goods-image{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.goods-info {
+	width: 80%;
+	float: left;
+	padding: 10px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+}
+
+.goods-info .title span {
+	background-color: #8056a7;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 3px 5px;
+}
+
+.goods-info .title {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.goods-info .mui-progressbar {
+	margin-top: 2px;
+}
+
+.goods-info .mui-progressbar-golden span {
+	background-color: #f98600;
+}
+
+.goods-info .desc {
+	color: #8F8F94;
+	padding-bottom: 15px;
+	margin-top: 10px;
+}
+
+
+.goods-info .desc .joiner-count {
+	float: left;
+	color: #000000;
+}
+
+.goods-info .desc .look-code {
+	float: right;
+	color: #1a8aff;
+}
+
+.goods-info .progress-panel{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #8F8F94;
+	text-align: left;
+}
+.goods-info .count {
+	color: #ff302d;
+}

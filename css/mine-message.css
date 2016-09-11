@@ -1,0 +1,22 @@
+.mui-bar.mui-bar-nav {
+	background-color: #ff302d;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+header a{
+	color: #FFFFFF;
+}
+
+.mui-table-view-cell{
+	color: #8F8F94;
+}
+.mui-table-view-cell div{
+	text-align: left;
+}
+.mui-table-view-cell a{
+	text-align: right;
+}
+
